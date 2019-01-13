@@ -6,34 +6,139 @@
   <title>A Pen by  蔚蔚</title>
   
   
-  
-      <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
-  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5230061447001_5203619434001-vs.jpg?pubId=5104226627001&videoId=5203619434001.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #c4031a;
+}
+header.jumbotron h4 {
+  color: rgba white, 0.8;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: royalblue;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(http://www.60malaysia.com/uploads/allimg/121123/5-121123112305214.jpg);
+  height: 290px;
+  background-size: cover;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
 </head>
 
 <body>
 
-   <html>
-  <head>
-    <title>namecard</title>
-  </head>
-  <body>
-<div class="mark">DEDM</div>
-    <div class="namecard">
-      <h2>古筱蔚
-        <span>KU SIOW WEI</span>
-      </h2>
-      <h5>國立嘉義大學數位學習設計三年級</h5>
-      <hr>
-      <p>siowwei.ku@gmail.com</p>
-      <div class="circle circle1"></div>
-      <div class="circle circle2"></div>
-    </div>
-    <h3 class="page_title">NCYU</h3>
-  </body>
-</html>
   
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header"><a class="navbar-brand" href="#">NCYU Maker</a></div>
+    <div class="nav navbar-nav navbar-right">
+      <li><a href="#section_ask">INTRO</a></li>
+      <li><a href="#section_about">ABOUT</a></li>
+      <li><a href="#section_video">VIDEO</a></li>
+    </div>
+  </div>
+</nav>
+<header class="jumbotron">
+  <div class="container">
+    <h1>馬來西亞</h1>
+    <hr/>
+    <h4>旅遊聖地</h4>
+  </div>
+</header>
+<section id="section_ask">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 img"></div>
+      <div class="col-sm-7">
+        <h2>介紹馬來西亞旅遊景點</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4"><img src="http://holidayhouseboys.com/wp-content/uploads/2012/01/Kuala-Lumpur.jpg" alt=""/>
+        <h3>吉隆坡</h3>
+        <p>吉隆坡有花園城市的美稱，綠意盎然的都市美景並未受到迅速成長的基礎建設影響，都市隨處可見綠茵扶疏的花園綠地。</p>
+      </div>
+      <div class="col-sm-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2MZEC-ZNbb80jvQwoCIG9DxtDJ9SUG2cYzsm1urOBvaWUtgmy" alt=""/>
+        <h3>檳城</h3>
+        <p>檳城美食被當地居民稱為”馬來西亞最美味的佳餚”，關仔角 (Gurney Drive) 的露天夜市更是旅客體驗當地美食必到之處。檳城和馬六甲也是品嚐娘惹料理(融合中華及馬來式的烹飪)的最佳地點。</p>
+      </div>
+      <div class="col-sm-4"><img src="https://www.touropia.com/gfx/d/attractions-in-melaka/a_famosa.jpg?v=1" alt=""/>
+        <h3>馬六甲</h3>
+        <p>走入馬六甲市中心的任何一條小巷，不難發現許多古老建築物、傳統買賣以及手工藝品，古色古香的氛圍，成為馬來西亞最多遊客到訪的旅遊據點。這裡的建築設計充分展現出葡萄牙、荷蘭以及英國的殖民影響，現在就跟我們一起漫步市中心盡情遊覽古都風光。</p>
+      </div>
+    </div>
+  </div>
+  <section id="section_video">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>旅遊宣傳影片/VIDEO</h1>
+          <hr/>
+        </div>
+        <div class="col-sm-12">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" iframe="iframe" width="800" height="589" src="https://www.youtube.com/embed/xl3QM22kWV0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
   
 
 </body>
